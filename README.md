@@ -46,7 +46,7 @@ You can change the macros:
 
 // The SACI_TEST_ASSERT can also be changed
 #define SACI_TEST_ASSERT(condition)... 
-// Default is: SACI_TEST_ASSERT(condition, [description](description))
+// Default is: SACI_TEST_ASSERT(condition, description)
 
 #define SACI_TEST_MAXIMUM 10 // Will only have 10 tests. Will crash if there are more!
 // Default: 0x1000.
